@@ -49,7 +49,7 @@
 
 <!-- mermaid -->
 {{- if and (or .Params.mermaid (and .Site.Params.mermaid.enable (ne .Params.mermaid false))) (or .IsPage .IsHome) -}}
-<script async src="https://unpkg.com/mermaid@8.2.3/dist/mermaid.min.js"></script>
+  <script async src="https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js"></script>
 {{- end -}}
 
 <!-- js-sequence-diagrams -->
